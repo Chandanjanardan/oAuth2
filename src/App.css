@@ -1,0 +1,23 @@
+.navbar{
+  height: 50px;
+  background-color: purple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.listItem{
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.avatar{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
