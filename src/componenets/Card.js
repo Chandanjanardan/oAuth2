@@ -6,7 +6,10 @@ const Card = ({post}) => {
  
   return (
     <div>
-      <h1>{ post.desc}</h1>
+      <span  className='"title'>{post.title}</span>
+      <img src={post.img} alt="" className='img'/>
+      <p className='desc'>{post.desc}</p>
+      <button className='cardButton'>Read more</button>
      
     </div>
     
