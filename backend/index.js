@@ -2,7 +2,7 @@ const cookieSession = require("cookie-session")
 const express = require ("express")
 const passport = require("passport")
 const cors= require("cors")
-const passportSetup= require("./passport")
+// const passportSetup= require("./passport")
 const authRoute = require("../backend/routes/auth")
 
 const app = express()

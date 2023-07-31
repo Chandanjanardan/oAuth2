@@ -10,7 +10,9 @@ function Login() {
         <div className='wrapper'>
             <div className="left">
                 <div className="loginButton">
-                    <h1 className='google' onClick={google}>GOOGLE</h1>
+                    <button className='google'>
+                        <h1 className='google' onClick={google}>GOOGLE</h1>
+                    </button>
                     <h1 className='facebook'>facebook</h1>
                     <h1 className='github'>github</h1>
                 </div>

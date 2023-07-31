@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import './App.css';
 
 import { Navbar } from './componenets/Navbar';
@@ -8,11 +9,11 @@ import Post from './pages/Post';
 import { BrowserRouter,Routes,Route,Navigate } from 'react-router-dom';
 
 function App() {
-  const user = false
+  const [user,setUser]=useState(false)
   return (
    <>
    <BrowserRouter>
-  <Navbar/>
+  <Navbar user={user}/>
   <Routes>
     <Route path='/' element={<Home/>} />
     <Route path='/login' element={user ? <Navigate to="/"/>:<Login/>} />
